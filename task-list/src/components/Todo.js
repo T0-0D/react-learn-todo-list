@@ -6,7 +6,7 @@ export default function Todo(props) {
         <li>
             <input id={props.id} type="checkbox" defaultChecked={props.complete} />
             <label>
-              {props.taskName}
+              {props.name}
             </label>
             <div>
               <button type="button">
