@@ -3,6 +3,10 @@ import Form from "./components/Form";
 import FilterButton from "./components/FilterButton";
 
 function App (props) {
+  function addTask (name) {
+    alert(name);
+  }
+
   //　tasks配列をTodoコンポーネントに代入
   const taskList = props.tasks.map(task => (
     <Todo 
@@ -15,7 +19,7 @@ function App (props) {
   return (
     <div>
       <h1 className="title-page">Task List</h1>
-      <Form />
+      <Form addTask={addTask} />
       <FilterButton />
       <FilterButton />
       <FilterButton />

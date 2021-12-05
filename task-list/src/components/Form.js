@@ -7,12 +7,12 @@ function handleSubmit (e) {
 
 function Form (props) {
     return (
-        <from onClick = {handleSubmit}>
+        <from>
             <h2>
                 Type your task here!
             </h2>
         <input type="text" />
-        <button type="submit">
+        <button type="submit" onClick = {handleSubmit}>
             Done!
         </button>
         </from>
