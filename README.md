@@ -1,4 +1,4 @@
-# react-learn
+# React To Do List
 
 ## 概要 Description
 * React.jsを利用して作ったTask Listです
